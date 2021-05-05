@@ -9,7 +9,7 @@ management:
 resilience4j:
   circuitbreaker:
     instances:
-      default:  # default 설정을 줄 수는 없나
+      default:
         registerHealthIndicator: true
         slidingWindowType: COUNT_BASED
         minimumNumberOfCalls: 5
